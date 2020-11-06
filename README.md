@@ -12,8 +12,8 @@ Esse conversor suporta as moedas:
 - Bitcoin
 
 <div align="center">
- <img height="450" src="assets/print3.jpg">
  <img height="450" src="assets/print1.jpg">
+ <img height="450" src="assets/print3.jpg">
  <img height="450" src="assets/print2.jpg">
 
 </div>

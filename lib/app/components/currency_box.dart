@@ -38,7 +38,8 @@ class CurrencyBox extends StatelessWidget {
         ),
         Expanded(
           flex: 2,
-          child: TextField(
+          child: TextFormField(
+            keyboardType: TextInputType.number,
             controller: controller,
             decoration: InputDecoration(
               enabledBorder: UnderlineInputBorder(
