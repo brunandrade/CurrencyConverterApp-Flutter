@@ -31,8 +31,8 @@ class _HomeViewState extends State<HomeView> {
             children: [
               Image.asset(
                 'assets/imageCoin.png',
-                width: 150,
-                height: 150,
+                width: 200,
+                height: 200,
               ),
               SizedBox(height: 50),
               CurrencyBox(
@@ -57,12 +57,18 @@ class _HomeViewState extends State<HomeView> {
                 },
               ),
               SizedBox(height: 50),
-              RaisedButton(
-                color: Colors.amber,
-                onPressed: () {
-                  currencyController.convert();
-                },
-                child: Text('CONVERTER'),
+              Container(
+                width: 350,
+                height: 50,
+                child: RaisedButton(
+                  color: Colors.amber,
+                  shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(30)),
+                  onPressed: () {
+                    currencyController.convert();
+                  },
+                  child: Text('CONVERTER'),
+                ),
               ),
             ],
           ),
